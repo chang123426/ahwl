@@ -1,0 +1,80 @@
+main h2 {
+  color: #1a366e;
+  padding-top: 35px;
+  padding-bottom: 10px;
+}
+
+main p {
+  margin-bottom: 20px;
+  color: #666666;
+}
+.current {
+  background-color: #d0d0d0;
+}
+.tourist-spots {
+  background-color: #fff;
+  padding: 20px;
+  margin-bottom: 20px;
+  /* 阴影 */
+   box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+}
+.tourist-spots h2 {
+  color: #003366;
+  margin-bottom: 15px;
+}
+.spot {
+  margin-bottom: 15px;
+  padding: 15px;
+  background-color: #f9f9f9;
+  border: 1px solid #ddd;
+  position: relative;
+}
+.spot .bann{
+  display:flex ;
+}
+.spot .bann img {
+  width: 400px;
+  height: 400px;
+  border: 1px solid #ccc;
+  padding: 3px;
+  background-color: #fff; 
+  box-shadow: 5px 5px 4px rgba(2, 2, 2, 0.5);
+}
+.spot  h3 {
+  color: #003366;
+  margin-bottom: 8px;
+}
+.spot .bann  p {
+  width: 600px;
+  display: block;
+  margin-bottom: 5px;
+  padding: 10px;
+  margin-left: 10px;
+}
+.spot .bann  span{
+  font-weight: 900;
+  padding: 10px;
+}
+.spot .bann .font{
+  padding: 20px;
+  line-height: 20px;
+}
+.spot .bann .font ol{
+
+  margin: 20px;
+}
+.spot .bann .font ol li {
+  padding: 5px;
+  list-style-type: square;
+}
+.spot  a {
+  color: #003366;
+  border-bottom: 1px solid #003366;
+  position: absolute;
+  right: 10px;
+  bottom: 10px;
+}
+.spot a:hover {
+  color: #ff6347;
+  border-bottom-color: #ff6347;
+}
